@@ -19,6 +19,7 @@ tableData.forEach(function(item) {
 });
 
 // JavaScript code that will listen for events and search through the date/time column to find rows that match user input
+// filtered data will be console logged 
 var button = d3.select(".btn");
 button.on("click", function() {
 
