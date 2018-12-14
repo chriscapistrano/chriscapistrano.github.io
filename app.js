@@ -33,7 +33,7 @@ button.on("click", function() {
     var inputValue = inputElement.property("value");
   
     console.log(inputValue);
-    console.log(tableData);
+    //console.log(tableData);
   
     var filteredData = tableData.filter(item => item.datetime === inputValue);
   
